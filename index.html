@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-size: 14px;
+        font-family: Verdana, sans-serif;
+        padding: 20px;
+        }
+
+        h1 {
+        font-size: 22px;
+        font-weight: normal;
+        }
+
+        li {
+        line-height: 2;
+        }
+
+        input[type="text"] {
+        padding: 6px 8px;
+        font-size: 14px;
+        width: 300px;
+        }
+        button {
+            float: right;
+            margin-left: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <button id="login">Login</button>
+        <button id="logout" class="hidden">Logout</button>
+        Firebase Chat
+    </h1>
+    <form autocomplete="off" class="hidden">
+        <input type="text" id="message" placeholder="your message....">
+    </form>
+
+    <ul id="messages" class="hidden">
+        
+    </ul>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+<script src="main.js"></script>
+
+<script>
+ 
+</script>
+</body>
+</html>
